@@ -1,0 +1,60 @@
+/* out: styles.css*/
+
+* {
+    margin: auto;
+    max-width: 800px;
+}
+body {
+    background-image: url("images/bg.jpg")
+    width: 100%;
+}
+.wrapper {
+    background-color: #fff;
+}
+#header {
+    padding: 50px 0;
+    margin: auto;
+    text-align: center;
+    background-color: #FEFAC1;
+    border-bottom: 3px #366F3E solid;
+
+}
+
+#header h1 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#intro {
+    background-color: white;
+}
+
+#intro p {
+    padding: 10px;
+}
+
+#photos img {
+    background-color: white;
+    display: block;
+    max-width: 400px;
+    padding: 10px;
+}
+
+#photos h2 {
+    text-align: center;
+    padding: 10px;
+}
+#FAQ {
+    padding: 10px;
+}
+
+#FAQ h2 {
+    text-align: center;
+}
+
+#FAQ li {
+    padding: 10px;
+}
+.Q {
+    font-weight: bold;
+}
